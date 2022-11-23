@@ -109,6 +109,9 @@ dependencies = [
 	{org = "ballerina", name = "regex"},
 	{org = "ballerina", name = "time"}
 ]
+modules = [
+	{org = "ballerina", packageName = "jwt", moduleName = "jwt"}
+]
 
 [[package]]
 org = "ballerina"
@@ -230,6 +233,9 @@ dependencies = [
 	{org = "ballerina", name = "jballerina.java"},
 	{org = "ballerina", name = "lang.string"}
 ]
+modules = [
+	{org = "ballerina", packageName = "regex", moduleName = "regex"}
+]
 
 [[package]]
 org = "ballerina"
@@ -274,6 +280,8 @@ name = "unsecured_api"
 version = "0.1.0"
 dependencies = [
 	{org = "ballerina", name = "http"},
+	{org = "ballerina", name = "jwt"},
+	{org = "ballerina", name = "regex"},
 	{org = "ballerinai", name = "observe"}
 ]
 modules = [
